@@ -21,6 +21,6 @@ def createVideoFromImageFolder(image_folder, video_name):
     video.release()
 
 if __name__ == "__main__":
-    image_folder = './samples'
+    image_folder = './samples/exp_name/0/generated'
     video_name = 'video.mp4'
     createVideoFromImageFolder(image_folder,video_name)
