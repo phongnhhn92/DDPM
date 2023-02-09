@@ -33,7 +33,7 @@ class Project_name(LightningModule):
                 self.model,
                 image_size = 32,
                 timesteps = self.hparams.num_step,   # number of steps
-                sampling_timesteps = self.hparams.num_step // 4,
+                sampling_timesteps = self.hparams.num_step,
                 loss_type = 'l1'    # L1 or L2
         )
     # def decode_batch():

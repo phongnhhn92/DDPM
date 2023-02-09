@@ -12,7 +12,7 @@ def config_parser():
     parser.add_argument("--expname", type=str,default='exp_name', help='experiment name')
     parser.add_argument("--num_gpus", type=int, default=1)
     parser.add_argument("--num_epochs", type=int, default=200)
-    parser.add_argument("--num_vis_step", type=int, default=100)
+    parser.add_argument("--num_vis_step", type=int, default=300)
     parser.add_argument("--num_vis", type=int, default=64)
     parser.add_argument("--num_step", type=int, default=1000, help='number of diffusion steps')
     parser.add_argument('--save_imgs', default=True, action="store_true",
